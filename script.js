@@ -30,15 +30,15 @@ console.log(number);
 /* A volte le password richiedono caratteri speciali o/e numeri al loro interno, per questo secondo me in questo caso è considerato numero e non stringa*/
 
 //TODO: #5-6 
-const firstname = prompt("Qual è il tuo nome?");
+const firstname = prompt("Qual è il tuo nome?", "erica");
 console.log(firstname);
 
 //TODO: #7-8
-const lastname = prompt("Qual è il tuo cognome?");
+const lastname = prompt("Qual è il tuo cognome?", "marzi");
 console.log(lastname);
 
 //TODO: #9-10
-const color = prompt("Qual è il tuo colore preferito?");
+const color = prompt("Qual è il tuo colore preferito?", "teal");
 console.log(color);
 
 //TODO: #11
@@ -46,4 +46,4 @@ const password = firstname + lastname + color + number;
 console.log(password);
 
 //TODO: #12
-paragraph.innerText = message + password;
+paragraph.innerHTML = message + `<strong>${password}</strong>`;
