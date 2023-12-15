@@ -45,3 +45,5 @@ console.log(color);
 const password = firstname + lastname + color + number;
 console.log(password);
 
+//TODO: #12
+paragraph.innerText = message + password;
