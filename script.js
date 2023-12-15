@@ -15,3 +15,17 @@ console.log("js ok")
 11- Dichiarare la variabile "password" e assegnarle il valore "nome+cognome+colore+number"
 12- Unire "message" e "password" (mettendo il grassetto alla password)
 */ 
+
+//TODO: #2
+const paragraph = document.getElementById("password-generate")
+console.log(paragraph)
+
+
+//TODO: #3 #4
+const message = "La tua password è: "
+console.log(message)
+const number = 23
+console.log(number)
+/* A volte le password richiedono caratteri speciali o/e numeri al loro interno, per questo secondo me in questo caso è considerato numero e non stringa*/
+
+
