@@ -16,16 +16,32 @@ console.log("js ok")
 12- Unire "message" e "password" (mettendo il grassetto alla password)
 */ 
 
-//TODO: #2
-const paragraph = document.getElementById("password-generate")
-console.log(paragraph)
+//TODO: #1-2
+const paragraph = document.getElementById("password-generate");
+console.log(paragraph);
 
 
 //TODO: #3 #4
-const message = "La tua password è: "
-console.log(message)
-const number = 23
-console.log(number)
+const message = "La tua password è: ";
+console.log(message);
+
+const number = 23;
+console.log(number);
 /* A volte le password richiedono caratteri speciali o/e numeri al loro interno, per questo secondo me in questo caso è considerato numero e non stringa*/
 
+//TODO: #5-6 
+const firstname = prompt("Qual è il tuo nome?");
+console.log(firstname);
+
+//TODO: #7-8
+const lastname = prompt("Qual è il tuo cognome?");
+console.log(lastname);
+
+//TODO: #9-10
+const color = prompt("Qual è il tuo colore preferito?");
+console.log(color);
+
+//TODO: #11
+const password = firstname + lastname + color + number;
+console.log(password);
 
